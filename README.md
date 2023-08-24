@@ -20,31 +20,3 @@ install.packages("tidyverse")
 install.packages("corrplot")
 install.packages("olsrr")
 install.packages("smotefamily")
-
-Usage
-Clone this repository to your local machine.
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-Set the working directory to the folder where you cloned this repository. You can change this line in the code to match your directory:
-R
-Copy code
-setwd("C:/Users/ual-laptop/Desktop/MIS545/Week6/Lab06")
-Open the R script Lab06TambeKapuria.R in your R environment.
-
-Run the script to execute the logistic regression analysis and predictions.
-
-Code Description
-The code reads mobile phone subscriber data from a CSV file.
-It performs exploratory data analysis, including creating histograms and a correlation matrix plot.
-Class imbalance is addressed using the SMOTE technique.
-A logistic regression model is generated to predict mobile service cancellations.
-Model accuracy and confusion matrix metrics are calculated.
-Results
-The script provides predictions for mobile service cancellations and evaluates model performance.
-
-License
-This project is licensed under the MIT License.
-
-Acknowledgments
-This code is part of a project completed for the MIS 545 course.
