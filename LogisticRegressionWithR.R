@@ -1,6 +1,3 @@
-# Prajakta Tambe, Varun Kapuria
-# MIS 545 Section 01
-# Lab06TambeKapuria.R
 # The following code is to determine the chances of a user cancelling 
 # their mobile service based on several factors using logistic regression
 
