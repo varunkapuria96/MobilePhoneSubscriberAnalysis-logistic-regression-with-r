@@ -47,9 +47,9 @@ setwd("C:/working-directory")
 - The script provides predictions for mobile service cancellations and evaluates model performance.
 
 ## Questions and Answers
-- Which, if any, of your predictions were incorrect. Explain why this might 
+1. Which, if any, of your predictions were incorrect. Explain why this might 
 be the case. 
-AvgCallsPerMonth was one of the predictions that were incorrect. We 
+- AvgCallsPerMonth was one of the predictions that were incorrect. We 
 originally thought that this would have no significant relation in the 
 model but according to the correlation matrix it has a direct impact with 
 0.03. Which means, higher number of calls indicate that the customer is 
@@ -57,10 +57,10 @@ happy with the network and would not cancel their service. AccountWeeks and
 AvgCallMinsPerMonth is also directly correlated to CancelledServiceTRUE, 
 We’re not sure why that must be. 
  
-- Why is DataPlan highly correlated with DataUsage?  
-Users with higher the DataPlan would mean higher the DataUsage. 
+2. Why is DataPlan highly correlated with DataUsage?  
+- Users with higher the DataPlan would mean higher the DataUsage. 
  
-- Why is MonthlyBill highly correlated with DataPlan and DataUsage?  
-Usually, higher data plans are priced more than lower data plans which 
+3. Why is MonthlyBill highly correlated with DataPlan and DataUsage?  
+- Usually, higher data plans are priced more than lower data plans which 
 means that monthly bill would be higher. Thus, higher DataPlan means their 
 DataUsage is more which also means MonthlyBill would be higher.
