@@ -6,11 +6,6 @@ This repository contains R code to predict the chances of a user canceling their
 ## Authors
 - [Varun Kapuria](#)
 
-## Course Information
-- Course: MIS 545 Section 01
-- Lab Assignment: Lab06
-- File Name: Lab06TambeKapuria.R
-
 ## Installation
 Before running the code, you will need to install the following R packages if you haven't already. You can install them using the following commands:
 
